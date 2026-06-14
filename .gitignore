@@ -1,0 +1,44 @@
+# Environment secrets
+.env
+.env.local
+.env.*.local
+*.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python environment & caching
+backend/venv/
+backend/venv_win/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+.cache/
+
+# Local databases
+*.db
+*.sqlite
+backend/career_copilot.db
+
+# Javascript / Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+.eslintcache
+
+# Logs & temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
